@@ -22,3 +22,6 @@ Route::get('/home', function () {
 Route::get('/bazar', function () {
     return view('UI.bazar');
 });
+Route::get('/product', function () {
+    return view('product');
+});
