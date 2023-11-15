@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('UI.home');
 });
+Route::get('/bazar', function () {
+    return view('UI.bazar');
+});
 Route::get('/product', function () {
     return view('product');
 });
